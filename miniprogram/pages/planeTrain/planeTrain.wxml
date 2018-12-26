@@ -1,0 +1,69 @@
+<!--miniprogram/pages/planeTrain/planeTrain.wxml-->
+<view style='margin:0px;'>
+  <swiper style='width:100%;height:250px;' autoplay='true' interval='4000' circular='true'>
+    <swiper-item >
+      <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/20131114071711416.jpg" style='width:100%;'>
+      
+      </image>
+    </swiper-item>
+     <swiper-item>
+      <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/20170711174903_767.jpg" style='width:100%;'>
+      
+      </image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view style=" margin:0px;background-image: url('https://7869-xiaoshistudio-91b7b2-1258008990.tcb.qcloud.la/szg/flyTrainDesc.jpg?sign=08b5b680660882fcb905884480f7f43f&t=1541665772'); height:1000px;width:100%;background-size:cover;">
+
+    <text class='textStyle'>
+  培训内容
+  </text>
+  <view style='margin-left:20px;'>
+    <text class='textStyle2'>1. 完整的四旋翼飞控代码  </text><rich-text nodes="{{br}}"></rich-text>
+    <text class='textStyle2'>2. 硬件组装  </text><rich-text nodes="{{br}}"></rich-text>
+    <text class='textStyle2'>3. Stm32单片机、各种用到的传感器芯片（如GPS、陀螺仪、磁罗盘、气压计、蓝牙芯片等）   </text><rich-text nodes="{{br}}"></rich-text>
+    <text class='textStyle2'> 4. 调试无人机    </text><rich-text nodes="{{br}}"></rich-text>
+    <text class='textStyle2'>  5. 开发环境：Visual Studio 2017、GDB     </text><rich-text nodes="{{br}}"></rich-text>
+    <text class='textStyle2'>   6.所有无人机用到的算法：如卡尔曼滤波、互补滤波、四元数、PWM等     </text><rich-text nodes="{{br}}"></rich-text>
+  </view>
+   <text class='textStyle'>
+  培训方式
+  </text>
+  <view style='margin-left:20px;'>
+   
+  <text class='textStyle2'> 1.线上培训：老师亲自写各个模块的飞控代码(包含注释)，然后发送给学生，师生在线上讨论，并针对学生具体 问题，实时传输视频演示文件。    </text><rich-text nodes="{{br}}"></rich-text>
+  <text class='textStyle2'>  2.线下培训： 学生找老师培训，手把手教，学生比较容易快速掌握，理论和实践同时进行。  </text><rich-text nodes="{{br}}"></rich-text>
+
+  <text class='textStyle2'>  3.线上+线下培训： 适合工作时间比较不确定的同学，自己忙碌时可以在线上接受培训，有业余时间时可以预约、找老师培训。 </text><rich-text nodes="{{br}}"></rich-text>
+  <text class='textStyle2'> 注： 任何时候，师生保持联系，有问题就请教，老师可以尽最大努力帮您解决。  </text><rich-text nodes="{{br}}"></rich-text>
+  </view>
+  <text class='textStyle'>
+  考核方式 
+  </text>
+  <view style='margin-left:20px;'>
+    <text class='textStyle2'> 培训完后，学生可以做一个无人机出来，老师帮助学生调试。   </text><rich-text nodes="{{br}}"></rich-text>
+  </view>
+</view>
+<view  style="position:fixed; bottom:0;width: 33.333333333333%;height:40px;padding-top:10px;background-color:rgba(8, 94, 121, 0.781)">
+      <text style='margin-left:20px;color:white;' bindtap='yuyuePlaneTrain'>预约</text>
+</view>
+<view  style="position:fixed; bottom:0;left:33.333333333333%;width: 33.333333333333%;height:40px;background-color:rgba(8, 94, 121, 0.781);padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='references'>资料</text>
+</view>
+<view  style="position:fixed; bottom:0;left:66.6666666666666%;width: 33.333333333333333333%;height:40px;background-color:rgba(8, 94, 121, 0.781); padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='purchaseItems'>购买零件</text>
+</view>
+
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+<!--miniprogram/pages/planeOrder/planeOrder.wxml-->
+<view style='width:100%:height:100px;'>
+  <video src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/flyOrder.mp4" autoplay='true' controls='false' loop='true' page-gesture='true' style='width:100%;' objectFit='fill' muted='true'>
+  </video>
+</view>
+<view>
+<text class='textStyle'>
+无人机
+</text>
+<text class='textStyle2'> <text style='margin-left:30px;' class="textStyle2">无人驾驶飞机简称“无人机”，英文缩写为“UAV”，是利用</text>无线电遥控设备和自备的程序控制装置操纵的不载人飞机，或者由车载计算机完全地或间歇地自主地操作。</text><rich-text nodes="{{br}}"></rich-text>
+<text class="textStyle2"><text style='margin-left:30px;' class="textStyle2">无人机往往更适合那些太“愚钝，</text>肮脏或危险”的任务。无人机按应用领域，可分为军用与民用。军用方面，无人机分为侦察机和靶机。民用方面，无人机+行业应用，是无人机真正的刚需；目前在航拍、农业、植保、微型自拍、快递运输、灾难救援、观察野生动物、监控传染病、测绘、新闻报道、电力巡检、救灾、影视拍摄、制造浪漫等等领域的应用，大大的拓展了无人机本身的用途，发达国家也在积极扩展行业应用与发展无人机技术。 
+</text>
+<swiper vertical='true'  style='height:180px;'  autoplay='true' interval='2000' circular='true'>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane1.jpg'>
+    </image>
+  </swiper-item>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane2.jpg'>
+    </image>
+  </swiper-item>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane3.jpg'>
+    </image>
+  </swiper-item>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane4.jpg'>
+    </image>
+  </swiper-item>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane5.jpg'>
+    </image>
+  </swiper-item>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane6.jpg'>
+    </image>
+  </swiper-item>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane7.jpg'>
+    </image>
+  </swiper-item>
+  <swiper-item>
+    <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/plane8.jpg'>
+    </image>
+  </swiper-item>
+</swiper>
+</view>
+  <rich-text nodes="{{br}}"></rich-text>
+ <text class='textStyle'>民用领域</text>
+
+<view>
+ 
+  <text style='margin-left:30px;' class="textStyle2">警用、城市管理、农业、地质、气象、电力、抢险救灾、视频拍摄等行业，无人机的用途广泛。 
+</text>
+
+  <text  class="textStyle2">
+    <text style='margin-left:30px;' class="textStyle2"> 1. 应用领域：<text style='color:blue'>电力巡检工作原理：</text></text>装配有高清数码摄像机和照相机以及GPS定位系统的无人机，可沿电网进行定位自主巡航，实时传送拍摄影像，监控人员可在电脑上同步收看与操控。推荐理由：采用传统的人工电力巡线方式，条件艰苦，效率低下，一线的电力巡查工偶尔会遭遇“被狗撵”“被蛇咬”的危险。无人机实现了电子化、信息化、智能化巡检，提高了电力线路巡检的工作效率、应急抢险水平和供电可靠率。而在山洪暴发、地震灾害等紧急情况下，无人机可对线路的潜在危险，诸如塔基陷落等问题进行勘测与紧急排查，丝毫不受路面状况影响，既免去攀爬杆塔之苦，又能勘测到人眼的视觉死角，对于迅速恢复供电很有帮助。 
+  </text>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/desc2.jpg'>
+  </image>
+  
+   <text style='margin-left:30px;' class="textStyle2"> 2. 应用领域：<text style='color:blue'>农业保险工作原理：</text></text><text class='textStyle2'>利用集成了高清数码相机、光谱分析仪、热红外传感器等装置的无人机在农田上飞行，准确测算投保地块的种植面积，所采集数据可用来评估农作物风险情况、保险费率，并能为受灾农田定损，此外，无人机的巡查还实现了对农作物的监测。推荐理由：自然灾害频发，面对颗粒无收的局面，农业保险有时候是农民们的一根救命稻草，却因理赔难，又让人多了一肚子苦水。无人机在农业保险领域的应用，一方面既可确保定损的准确性以及理赔的高效率，又能监测农作物的正常生长，帮助农户开展针对性的措施，以减少风险和损失。 
+  </text>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/desc3.jpg'>
+  </image>
+   <text style='margin-left:30px;' class="textStyle2"> 2. 应用领域：<text style='color:blue'>环保工作原理：</text></text><text class='textStyle2'>无人机在环保领域的应用，大致可分为三种类型。一：环境监测：观测空气、土壤、植被和水质状况，也可以实时快速跟踪和监测突发环境污染事件的发展；二，环境执法：环监部门利用搭载了采集与分析设备的无人机在特定区域巡航，监测企业工厂的废气与废水排放，寻找污染源；三，环境治理：利用携带了催化剂和气象探测设的柔翼无人机在空中进行喷撒，与无人机播撒农药的工作原理一样，在一定区域内消除雾霾。推荐理由：无人机开展航拍，持久性强，还可采用远红外夜拍等模式，实现全天候航监测，无人机执法又不受空间与地形限制。时效性强，机动性好，巡查范围广，尤其是在雾霾严重的京津冀地区，使得执法人员可及时排查到污染源，一定程度上减缓雾霾的污染程度。 
+  </text>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/desc4.jpg'>
+  </image>
+   <text style='margin-left:30px;' class="textStyle2"> 2. 应用领域：<text style='color:blue'>影视剧拍摄工作原理：</text></text><text class='textStyle2'>无人机搭载高清摄像机，在无线遥控的情况下，根据节目拍摄需求，在遥控操纵下从空中进行拍摄。推荐理由：无人机实现了高清实时传输，其距离可长达5公里，而标清传输距离则长达10公里;无人机灵活机动，低至一米，高至四五千米，可实现追车、升起和拉低、左右旋转，甚至贴着马肚子拍摄等，极大地降低了拍摄成本。影视圈使用无人机的成功案例比比皆是，无论是新晋导演韩寒的处女秀《后会无期》，还是炙手可热的节目《爸爸去哪儿》，抑或是经典大片《哈利·波特》系列、《007天幕坠落》《变形金刚4》等，都能从幕后发现无人机的踪影。此外，俄罗斯索契冬奥会以及央视的钱塘江大潮等重要事件的报道中，无人机也功不可没。  
+  </text>
+  <video src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/desc5.mp4' muted='true' loop='true' style='width:100%;height:180px;' objectFit='fill' autoplay='true'>
+  </video>
+  <text style='margin-left:30px;' class="textStyle2"> 2. 应用领域：<text style='color:blue'>快递工作原理：</text></text><text class='textStyle2'>无人机可实现鞋盒包装以下大小货物的配送，只需将收件人的GPS地址录入系统，无人机即可起飞前往。推荐理由：这早已不是天方夜谭，美国的亚马逊，中国的顺丰都在兴冲冲地忙着测试这项业务，而美国达美乐披萨店，已在英国成功地空运了首个披萨外卖。据悉，亚马逊宣称无人机会在30分钟内将货物送达1.6公里范围内的客户手中。据说顺丰研发无人机送货的目的，是为了解决偏远地区送货难的问题。无人机送快递，如果能不落到用户脑袋上的话，还算是个新颖的好点子，至少，在婚礼上用无人机来送戒指的话，还有点小惊喜。  
+  </text>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/desc6.jpg'>
+  </image>
+
+
+
+
+
+
+</view>
+<view  style="position:fixed; bottom:0;width: 33.333333333333%;height:40px;padding-top:10px;background-color:rgba(128, 29, 185, 0.664)">
+      <text style='margin-left:20px;color:white;' bindtap='yuyuePlane'>预约</text>
+</view>
+<view  style="position:fixed; bottom:0;left:33.333333333333%;width: 33.333333333333%;height:40px;background-color:rgba(128, 29, 185, 0.664) ;padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='pay'>付款</text>
+</view>
+<view  style="position:fixed; bottom:0;left:66.6666666666666%;width: 33.333333333333333333%;height:40px;background-color:rgba(128, 29, 185, 0.664); padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='planeSuccessfulCase'>成功案例</text>
+</view>
+
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>

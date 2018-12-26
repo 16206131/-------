@@ -1,0 +1,36 @@
+<!--miniprogram/pages/yuyueWebTrain/yuyueWebTrain.wxml-->
+
+<view style='margin-top:50px;margin-left:10px;margin-right:10px;'>
+<form bindsubmit='formSubmit'>
+  <input name="name" class='input1' placeholder='请输入您的尊称' type='text' maxlength='20' placeholder-style='font-size:13px;'></input>
+  <input name="contact" class='input1' placeholder='请输入联系方式' type='text' maxlength='20' placeholder-style='font-size:13px;'></input>
+   <input name="job" class='input1' placeholder='职位' type='text' maxlength='20' placeholder-style='font-size:13px;'></input>
+   <input name="address" class='input1' placeholder='工作或家庭地址' type='text' maxlength='20' placeholder-style='font-size:13px;'></input>
+  <textarea name="requirement" placeholder='请输入您的web基础及相关要求' style='width:100%;height:100px;border-color:lightGrey;border-style:solid;margin-top:20px;' maxlength='200' placeholder-style='font-size:13px;'></textarea>
+  <button style='margin-left:20%;margin-right:20%;margin-top:40px;background-color:white;border:1px solid rgb(181, 98, 197);' formType="submit"><text style='color:rgb(181, 98, 197);'  >提交预约</text></button>
+  </form>
+</view>
+<view style='margin-left:11%;margin-right:11%;'>
+  <text style='font-size:13px;color:lightGrey;'>
+    提交申请后两个工作日内专属客服会联系您
+  </text>
+  </view>
+<view style='margin-left:27%;margin-right:27%;'>
+  <text style='font-size:13px;color:lightGrey;'>
+    更多详情请关注公众号
+  </text>
+</view>
+<view style='margin-left:32%;margin-right:32%;height:200px;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/weixin.jpg' style='width:100px;height:100px;' bindlongtap='recognizeWeixin'>
+
+  </image>
+</view>
+
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>
+
+
+

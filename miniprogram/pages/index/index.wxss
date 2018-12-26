@@ -1,0 +1,70 @@
+/* pages/index/.wxss */
+image
+{
+  height: 100%;
+  width: 100%;
+}
+.littleIcon
+{
+  width:22.3333333333%;
+  height:40px;
+  float:left;
+  margin-top: 30px;
+  margin-left: 11%;
+}
+.showProduct
+{
+    height:160px;
+    background-color:rgba(137, 43, 226, 0.219);
+    padding-top: 20%;
+    padding-left: 6%;
+
+}
+.product1{
+  width:30%;
+  height: 20%;
+  background-color:cornflowerblue;
+
+
+}
+.product2{
+  width:30%;
+  height: 20%;
+  background-color:rgb(236, 53, 138);
+
+
+}
+.product3{
+  width:30%;
+  height: 20%;
+  background-color:rgb(100, 237, 191);
+
+
+}
+.product4{
+  width:30%;
+  height: 20%;
+  background-color:rgb(186, 55, 226);
+
+
+}
+.aboutUs{
+  height:200px;
+  background-color: rgb(39, 174, 207)
+}
+.test
+{
+  color: rgb(44, 80, 41)
+}
+
+
+.img-plus-style {
+height: 70rpx;
+width: 70rpx;
+position: fixed;
+bottom: 200rpx;
+right: 13rpx;
+opacity: 0.7
+}
+.zindex100{z-index: 100}
+.yc{opacity: 0}

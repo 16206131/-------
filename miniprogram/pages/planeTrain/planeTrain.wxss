@@ -1,0 +1,24 @@
+/* miniprogram/pages/planeTrain/planeTrain.wxss */
+.textStyle{
+  color: rgb(120, 49, 212);
+  font-size:20px;
+}
+.textStyle2{
+  font-size: 12px;
+  color:white;
+}
+.menu{
+  color:rgba(8, 94, 121, 0.781)
+}
+
+
+.img-plus-style {
+height: 70rpx;
+width: 70rpx;
+position: fixed;
+bottom: 200rpx;
+right: 13rpx;
+opacity: 0.7
+}
+.zindex100{z-index: 100}
+.yc{opacity: 0}

@@ -1,0 +1,7 @@
+<!--miniprogram/pages/showPlane/showPlane.wxml-->
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>
+

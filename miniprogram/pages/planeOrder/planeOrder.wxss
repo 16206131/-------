@@ -1,0 +1,27 @@
+/* miniprogram/pages/planeOrder/planeOrder.wxss */
+.textStyle{
+  color: rgb(120, 49, 212);
+  font-size:20px;
+}
+.textStyle2{
+  font-size: 12px;
+}
+image{
+  width:100%;
+  height: 180px;
+}
+.menu{
+  color:rgba(128, 29, 185, 0.664)
+}
+
+
+.img-plus-style {
+height: 70rpx;
+width: 70rpx;
+position: fixed;
+bottom: 200rpx;
+right: 13rpx;
+opacity: 0.7
+}
+.zindex100{z-index: 100}
+.yc{opacity: 0}

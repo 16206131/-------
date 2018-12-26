@@ -1,0 +1,39 @@
+<!--miniprogram/pages/webTrain/webTrain.wxml-->
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>
+
+<view style='background-color:black;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webTrain/webTeachFirst1.png' style='width:100%;height:400px;'>
+  </image>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webTrain/webTeachFirst2.png' style='width:100%;height:400px;'>
+  </image>
+</view>
+<view style="background-image: url('https://7869-xiaoshistudio-91b7b2-1258008990.tcb.qcloud.la/webTrain/webTeachFirst3.png?sign=f44cf7f8fc57968b1e94c58c0defb594&t=1541666770');height:230px;">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webTrain/webTeachFirst4.png' style='width:100%;height:200px;' >
+  </image>
+</view>
+<view style="background-image: url('https://7869-xiaoshistudio-91b7b2-1258008990.tcb.qcloud.la/webTrain/webTeachFirst3.png?sign=f44cf7f8fc57968b1e94c58c0defb594&t=1541666770');height:350px;">
+  <text style='font-size:20px;margin-left:20%;margin-top:30px;;color:white;'>哪些人选择网站培训？</text>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webTrain/webTeachFirst5.png' style='width:30%;height:140px;margin-left:7px;margin-top:30px;' >
+  </image>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webTrain/webTeachFirst6.png' style='width:30%;height:140px;float:left;margin-left:7px;margin-top:30px;' >
+  </image>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webTrain/webTeachFirst7.png' style='width:30%;height:140px;float:left;margin-left:7px;margin-top:30px;' >
+  </image>
+</view>
+
+
+<view  style="position:fixed; bottom:0;width: 33.333333333333%;height:40px;padding-top:10px;background-color:rgba(27, 109, 216, 0.911)">
+      <text style='margin-left:20px;color:white;' bindtap='yuyueWebTrain'>预约</text>
+</view>
+<view  style="position:fixed; bottom:0;left:33.333333333333%;width: 33.333333333333%;height:40px;background-color:rgba(27, 109, 216, 0.911) ;padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='pay' open-type='contact'>支付</text>
+</view>
+<view  style="position:fixed; bottom:0;left:66.6666666666666%;width: 33.333333333333333333%;height:40px;background-color:rgba(27, 109, 216, 0.911); padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='call'>客服热线</text>
+</view>
+
+

@@ -1,0 +1,12 @@
+/* miniprogram/pages/showPlane/showPlane.wxss */
+
+.img-plus-style {
+height: 70rpx;
+width: 70rpx;
+position: fixed;
+bottom: 200rpx;
+right: 13rpx;
+opacity: 0.7
+}
+.zindex100{z-index: 100}
+.yc{opacity: 0}

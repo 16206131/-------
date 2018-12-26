@@ -1,0 +1,35 @@
+<!--miniprogram/pages/references/references.wxml-->
+<view style='width:40%;height:100px;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/20070908212338769.jpg' style='width:100%;height:100px;'></image>
+</view>
+<view style='margin:30px;'>
+  <text name="file1" bindtap='download1' style='color:{{color}}'>四元数转欧拉角代码解析</text>
+  <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download2' style='color:{{color}}'>GPS模块原理图</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download3' style='color:{{color}}'>线性规划</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download4' style='color:{{color}}'>SPSS与多元统计分析方法(较短)</text>
+  <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download5' style='color:{{color}}'>SPSS与多元统计分析方法讲义</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download6' style='color:{{color}}'>因子分析</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download7' style='color:{{color}}'>因子分析案例</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download8' style='color:{{color}}'>主成分推导1</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download9' style='color:{{color}}'>主成分分析</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download10' style='color:{{color}}'>OV2640摄像头实验-M4</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download11' style='color:{{color}}'>bluetooth.c</text>
+   <rich-text nodes="{{br}}"></rich-text>
+  <text name="file1" bindtap='download12' style='color:{{color}}'>OV2640摄像头实验-M4</text>
+</view>
+
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>

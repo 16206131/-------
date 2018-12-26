@@ -1,0 +1,28 @@
+<!--miniprogram/pages/planeSuccessfulCase/planeSuccessfulCase.wxml-->
+<view>
+  <video src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/QQ视频20180514192712.mp4' muted='true' poster='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/logo.png' style='height:180px;width:100%;' objectFit='fill'></video>
+  <text class='text1'>产品名称：</text>
+  <text class='text2'>基于四旋翼无人机平台的监控系统</text>
+</view>
+<view style='margin-top:20px;'>
+  <text class='text1'>产品特性：</text>
+   <text class='text2'>飞行高度达到100米以上；监控范围200米以内；通过wifi实时传输视频；在复杂环境下飞行可以自主保持平衡，抗干扰。</text>
+</view>
+<view style='margin-top:20px;'>
+  <text class='text1'>产品荣誉：</text>
+   <text class='text2'>校三等奖、江西省计算机作品大赛一等奖、创客中国江西省区域赛50强。</text>
+</view>
+<view style='margin-top:20px;'>
+  <text class='text1'>研发团队：</text>
+   <text class='text2'>小石工作室飞控开发团队</text>
+</view>
+
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>
+
+
+
+

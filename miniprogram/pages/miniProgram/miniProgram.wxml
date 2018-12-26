@@ -1,0 +1,64 @@
+<!--miniprogram/pages/miniProgram/miniProgram.wxml-->
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>
+
+<view style='width:100%:height:100px;'>
+  <video src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/szg/video1.mp4"  controls='false'  page-gesture='true' style='width:100%;' objectFit='fill' poster='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/miniProgramOrder/miniProgram2.jpg'>
+  </video>
+</view>
+<view style='margin-top:40px;margin-left:13%;width:30%;height:230px;float:left;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/miniProgramOrder/phone1.png' style='width:95%;height:180px;' bindtap='phone1'>
+  </image>
+  <text class='textDesc' bindtap='phone1'>汽车4S店小程序</text>
+  <text class='textPrice' bindtap='phone1'>￥5499.00 </text> 
+</view>
+<view style='margin-top:40px;margin-left:13%;width:30%;height:230px;float:left;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/miniProgramOrder/phone2.png' style='width:95%;height:180px;' bindtap='phone2'>
+  </image>
+  <text class='textDesc' bindtap='phone2'>精品家具店小程序</text>
+  <text class='textPrice' bindtap='phone2'>￥4000.00 </text> 
+</view>
+
+<view style='margin-top:40px;margin-left:13%;width:30%;height:230px;float:left'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/miniProgramOrder/phone3.png' style='width:95%;height:180px;' bindtap='phone3'>
+  </image>
+  <text class='textDesc'  bindtap='phone3'>宾馆预定小程序</text>
+  <text class='textPrice'  bindtap='phone3'>￥5230.00 </text> 
+</view>
+<view style='margin-top:40px;margin-left:13%;width:30%;height:230px;float:left;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/miniProgramOrder/phone4.png' style='width:95%;height:180px;'  bindtap='phone4'>
+  </image>
+  <text class='textDesc' bindtap='phone4'>各种培训机构小程序</text>
+  <text class='textPrice' bindtap='phone4'>￥2999.00 </text> 
+</view>
+<view style='margin-top:40px;margin-left:13%;width:30%;height:280px;float:left;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/miniProgramOrder/phone5.png' style='width:95%;height:180px;' bindtap='phone5'>
+  </image>
+  <text class='textDesc' bindtap='phone5'>互联网科技公司小程序</text>
+  <text class='textPrice' bindtap='phone5'>￥6499.00 </text> 
+</view>
+<view style='margin-top:40px;margin-left:13%;width:30%;height:280px;float:left;'>
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/miniProgramOrder/phone6.png' style='width:95%;height:180px;' bindtap='phone6'>
+  </image>
+  <text class='textDesc' bindtap='phone6'>装修公司业务小程序</text>
+  <text class='textPrice' bindtap='phone6'>￥3000.00 </text> 
+</view>
+
+
+
+<view  style="position:fixed; bottom:0;width: 33.333333333333%;height:40px;padding-top:10px;background-color:rgb(65, 6, 121)">
+      <text style='margin-left:20px;color:white;' bindtap='yuyueMiniProgramOrder'>预约</text>
+</view>
+<view  style="position:fixed; bottom:0;left:33.333333333333%;width: 33.333333333333%;height:40px;background-color:rgb(65, 6, 121) ;padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='pay' open-type='contact'>支付</text>
+</view>
+<view  style="position:fixed; bottom:0;left:66.6666666666666%;width: 33.333333333333333333%;height:40px;background-color:rgb(65, 6, 121); padding-top:10px;">
+      <text style='margin-left:20px;color:white;' bindtap='call'>客服热线</text>
+</view>
+
+
+
+

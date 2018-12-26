@@ -1,0 +1,75 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/deployFunctions/deployFunctions",
+    "pages/index2/index",
+    "pages/planeOrder/planeOrder",
+    "pages/AI/AI",
+    "pages/courseTeach/courseTeach",
+    "pages/miniProgram/miniProgram",
+    "pages/miniProgramTrain/miniProgramTrain",
+    "pages/planeTrain/planeTrain",
+    "pages/publicNoOrder/publicNoOrder",
+    "pages/webOrder/webOrder",
+    "pages/webTrain/webTrain",
+    "pages/showPlane/showPlane",
+    "pages/showRestaurant/showRestaurant",
+    "pages/showShop/showShop",
+    "pages/showWeb/showWeb",
+    "pages/moreProduct/moreProduct",
+    "pages/aboutUs/aboutUs",
+    "pages/planeSuccessfulCase/planeSuccessfulCase",
+    "pages/yuyuePlane/yuyuePlane",
+    "pages/purchaseItems/purchaseItems",
+    "pages/references/references",
+    "pages/yuyuePlaneTrain/yuyuePlaneTrain",
+    "pages/yuyueWebOrder/yuyueWebOrder",
+    "pages/yuyueWebTrain/yuyueWebTrain",
+    "pages/yuyueMiniProgramOrder/yuyueMiniProgramOrder",
+    "pages/phone1/phone1",
+    "pages/phone2/phone2",
+    "pages/phone3/phone3",
+    "pages/phone4/phone4",
+    "pages/phone5/phone5",
+    "pages/phone6/phone6",
+    "pages/yuyueMiniProgramTrain/yuyueMiniProgramTrain",
+    "pages/miniReferences/miniReferences",
+    "pages/yuyuePublicNoOrder/yuyuePublicNoOrder"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小石工作室",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+        
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "无人机"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "网站"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "公众号"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "小程序"
+      }
+    ]
+  }
+}

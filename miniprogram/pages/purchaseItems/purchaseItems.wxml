@@ -1,0 +1,82 @@
+<!--miniprogram/pages/purchaseItems/purchaseItems.wxml-->
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item3.jpg'>
+  </image>
+  <text class="textDesc">好盈乐天电调 无刷20A电调30A电调好盈40A电调航拍多旋翼航模电调</text>
+  <view>
+    <text class='textPriceNew'>¥30.00-60.00  </text>
+    <text class='textPriceOld'>  ￥70</text>
+  </view>
+</view>
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item4.jpg'>
+  </image>
+  <text class="textDesc">3S 11.1V 2200MAH 20C 40C航模锂电池四轴多轴无人直升机  </text>
+  <view>
+    <text class='textPriceNew'>¥94.05-145.53  </text>
+    <text class='textPriceOld'>  ￥166</text>
+  </view>
+</view>
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item5.jpg'>
+  </image>
+  <text class="textDesc">STM32F4DISCOVERY STM32F407G-DISC1STM32F407VGT6原装开发板现货  </text>
+  <view>
+    <text class='textPriceNew'>¥168.00   </text>
+    <text class='textPriceOld'>  ￥189</text>
+  </view>
+</view>
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item6.jpg'>
+  </image>
+  <text class="textDesc">40P彩排杜邦线 10/21/30/40CM 母对母 公对母 公对公 12股铜丝  </text>
+  <view>
+    <text class='textPriceNew'>¥2.00-4.80    </text>
+    <text class='textPriceOld'>  ￥10</text>
+  </view>
+</view>
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item7.jpg'>
+  </image>
+  <text class="textDesc">dji大疆原厂原装精灵3/3A/3SE/3P螺旋桨9450碳纤维桨叶机翼配件 </text>
+  <view>
+    <text class='textPriceNew'>¥9.90-76.00     </text>
+    <text class='textPriceOld'>  ￥15.00-99.00</text>
+  </view>
+</view>
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item8.jpg'>
+  </image>
+  <text class="textDesc">专业无人机GPS航拍飞行器5G高清远距图传遥控器 </text>
+  <view>
+    <text class='textPriceNew'>¥368.00     </text>
+    <text class='textPriceOld'>  ￥400.00</text>
+  </view>
+</view>
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item9.jpg'>
+  </image>
+  <text class="textDesc">GY-86 10DOF MS5611 HMC5883L MPU6050模块 MWC飞控传感器模块  </text>
+  <view>
+    <text class='textPriceNew'>¥86.00     </text>
+    <text class='textPriceOld'>  ￥91.00</text>
+  </view>
+</view>
+<view class="view1">
+  <image src='cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/无人机零件/item10.jpg'>
+  </image>
+  <text class="textDesc">NRF24L01+无线发射接收模块2.4G数传收发通信模块改进功率加强版 NRF 24L01+ 无线模块 </text>
+  <view>
+    <text class='textPriceNew'>¥5.65     </text>
+    <text class='textPriceOld'>  ￥6.30</text>
+  </view>
+</view>
+
+
+<view>
+    <button class="img-plus-style zindex100 yc" open-type='contact'></button>
+    <image src="cloud://xiaoshistudio-91b7b2.7869-xiaoshistudio-91b7b2/webOrder/客服.png" class="img-plus-style"></image>
+</view>
+
+
+
